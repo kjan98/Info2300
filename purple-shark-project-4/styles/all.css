@@ -1,0 +1,484 @@
+body {
+  /* source: https://www.laplagnet.com/activities/fitness/squash-courts-in-la-plagne  */
+  background-image: url("../images/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Roboto Condensed', cursive!important;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: hsla(0, 100%, 100%, 0.7);
+  height: 100%;
+  border: 1px solid black;
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containermem{
+  text-align: center;
+  flex-wrap: wrap;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.q {
+  margin-right: 20px;
+}
+
+
+/* .item{
+  align-self: auto;
+  padding: 10px;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+/* header.php styling */
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url("/fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Arvo";
+  src: url("/fonts/Arvo/Arvo-Regular.ttf");
+}
+
+/* For the Squash Header */
+#title{
+  text-align: center;
+  font-size: 75px;
+  color: #F23324;
+  font-family: 'Arvo', cursive!important;
+  padding: 0px;
+  margin: 20px;
+  padding-top: 30px;
+  /* text-shadow: 2.5px 2.5px black; */
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: Red;
+  -webkit-text-stroke-width: 1px;
+}
+
+.h2_form{
+  text-align: center;
+  font-weight: bold;
+}
+
+.faq_title{
+  text-align: left;
+  font-size: 40px;
+  color: black;
+  font-family: 'Arvo', cursive!important;
+  padding: 0px;
+  text-decoration: underline;
+}
+
+#menu {
+  text-align: center;
+  display: inline;
+  font-size: 20px;
+
+}
+
+a {
+  text-decoration:  none;
+  color: red;
+}
+
+nav a:hover {
+  /*opacity: 0.5;*/
+  background-color: red;
+}
+
+#login_notif {
+  float: right;
+}
+
+#login_notif a{
+  color: white;
+}
+
+#login_notif a:hover{
+  color: white;
+  opacity: 1;
+}
+
+#current_page {
+  text-decoration: underline;
+}
+
+.space {
+  height: 20px;
+}
+
+/* Karen's Styling */
+
+/* admin.php styling */
+#admin_list {
+  list-style-type: square;
+}
+
+#admin_intro {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 22px;
+}
+
+.admin_link {
+  font-size: 22px;
+}
+
+.admin_link:hover {
+  color: black;
+}
+
+.admin_desc {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-size: 22px;
+}
+
+/* for my pages title  */
+.title{
+  padding-top: 20px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.table_name{
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.update_member_label{
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  /*padding-left: 40px;*/
+}
+
+.update_member_input {
+  background-color: white;
+  font-size: 14px;
+}
+
+.update_member_input_last{
+  background-color: white;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+/* from: https://stackoverflow.com/questions/28127184/font-size-of-html-form-submit-button-cannot-be-changed */
+input[type=submit] {
+    font-size: 26px;
+}
+
+#add{
+  padding-bottom: 20px;
+}
+
+#remove{
+  margin-top:10px;
+  padding-bottom: 20px;
+}
+
+/*member_attendance.php styling */
+.member_attendance_msg_red {
+  color: red;
+  text-align: center;
+}
+
+.member_attendance_msg_green {
+  color: #336600;
+  text-align: center;
+}
+
+.date_green {
+  color: #336600;
+}
+
+.admin_msg {
+  padding-top: 20px;
+  margin-left: 30px;
+}
+/* update passwords */
+.update_pass_input {
+  margin-bottom: 10px;
+}
+.submit_button_pass {
+  margin-top: 20px;
+}
+
+/* login.php styling */
+#login {
+  text-align: center;
+}
+
+#logout{
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  border-radius: 4px;
+  border: none;
+  color: #f9f9f9;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  outline: 0;
+  font-family: "Roboto Condensed";
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* Alex's styling */
+
+/* list_serve.php styling */
+.message{
+  text-align: center;
+  color: #16a085;
+}
+
+#add_listserve{
+  text-align: center;
+}
+
+#calendar{
+  margin:0px auto;
+  padding:0px;
+  width: 700px;
+  font-family:Helvetica, "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: white;
+  table-layout: fixed;
+}
+
+div .calendar_nav {
+    width: 700px;
+    margin: auto;
+    line-height:40px;
+    vertical-align:middle;
+    text-align:center;
+    background-color: #A9A9A9;
+}
+#calendar td{
+  background-color: #DCDCDC;
+}
+#calendar td:hover{
+  background-color:#FF6600;
+}
+#calendar a{
+  color:black;
+}
+.calendar_nav a{
+  color:black;
+}
+.calendar_nav a:hover{
+  color:white;
+}
+
+#current{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+#update_submit button{
+  float: left;
+}
+/* Mia's styling, borrows others as well */
+#teampic{
+  width: 500px;
+  height: 300px;
+}
+
+header p{
+  color: #bdc3c7;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* eboard styling */
+.eboard_content {
+  text-align: center;
+}
+
+#update_admins{
+  text-align: center;
+}
+
+.error_msg{
+  color: red;
+  text-align: center;
+}
+
+/* nav temp */
+
+nav{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+ul.navigation{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul.navigation li {
+  float: left;
+  list-style-type: none;
+}
+
+ul.navigation li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+img{
+  display: block;
+  width: 275px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+
+.bold{
+  font-weight: bold;
+}
+
+input[type=submit]{
+  background-color: red;
+  border-radius: 4px;
+  border: none;
+  color: #f9f9f9;
+  padding: 5px 7px;
+  margin-right: 30px;
+/*margin-left: 20px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  outline: 0;
+  font-family: "Roboto Condensed";
+}
+
+input[type=submit]:hover{
+    background-color: grey;
+}
+
+video{
+  width: 30%;
+  height: 35%;
+    border: 1px solid black;
+}
+
+footer{
+  background-color: black;
+  padding-top: 200;
+  padding: 10px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.big_space {
+  height: 100px;
+}
+
+footer p{
+  color: white;
+}
+
+video{
+  width: 30%;
+  height: 35%;
+  border: 1px solid black;
+}
+
+.administ_desc {
+  list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    padding: 0;
+  }
+
+  .content{
+    padding: 0;
+  }
+
+  ul.navigation{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+
+  ul.navigation li a{
+    display: inline-block;
+    width: auto;
+  }
+
+  #teampic{
+    width: 100%;
+    display: block;
+    float: none;
+    height: auto;
+  }
+
+  p{
+    display: block;
+    float: none;
+  }
+
+  .container{
+    display: block;
+  }
+
+  #title{
+    padding-top: 55px;
+  }
+}
