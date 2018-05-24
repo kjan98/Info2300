@@ -42,7 +42,7 @@ Additionally, only admins can update the eBoard page
 
 
 ### Running ###
-First clone this repository. Then unzip the compressed videos, fonts, and uploads files. To run the php on a local server, you can use the terminal:
+First clone this repository. To run the php on a local server, you can use the terminal commands:
 ```
 cd path/to/your/app
 php -S localhost:8000
