@@ -10,7 +10,7 @@ say which member(s) went to which practice(s), update the eBoard members, and mu
 more! Whether you're on a computer or a mobile device, come and explore this site!
 
 ### Logistics ###
-This website was the term project for Info2300. For this project, teams of five people were to go and find a client and build a website for them. It must use databases, have login and logout features, and practice good design principles.
+This website was the term project for Info2300. For this project, teams of five people were to go and find a client and build a website for them. It must use databases, have login and logout features, and practice good design principles. We are currently in the process of launching the site.
 
 Here are some snapshots of the site:
 
